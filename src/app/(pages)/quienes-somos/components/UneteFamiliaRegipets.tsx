@@ -1,4 +1,3 @@
-import { p } from "framer-motion/client";
 import Image from "next/image";
 import { MdCheck } from "react-icons/md";
 
