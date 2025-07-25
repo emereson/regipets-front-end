@@ -2,17 +2,31 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 export default function Header() {
-  const [openMenu, setOpenMenu] = useState<boolean>(false);
+  const [openMenu, setOpenMenu] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const toggleMenu = useCallback(() => {
     setOpenMenu((prev) => !prev);
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 500);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <header className="fixed top-0 w-screen px-10 z-[100] font-[SegoeUiBlack] bg-blue  text-white">
+    <header
+      className={`fixed top-0 w-screen px-10 z-[100] font-[SegoeUiBlack] text-white transition-colors duration-300 ${
+        isScrolled ? "bg-blue" : "bg-transparent"
+      }`}
+    >
       <div className="w-full max-w-[1400px] m-auto flex justify-between items-center">
         <Link href="/" onClick={() => setOpenMenu(false)}>
           <Image
@@ -35,14 +49,14 @@ export default function Header() {
             ></span>
             <span
               className={`block w-7 h-1 rounded-lg bg-white ${
-                openMenu ? "-rotate-45  absolute" : ""
+                openMenu ? "-rotate-45 absolute" : ""
               } duration-250`}
-            ></span>{" "}
+            ></span>
           </button>
         </div>
 
         <nav
-          className={`fixed z-10 top-0 right-0 h-screen w-[340px] bg-blue pt-[150px]  flex flex-col items-end gap-4 pr-16 text-xl ${
+          className={`fixed z-10 top-0 right-0 h-screen w-[340px] bg-blue pt-[150px] flex flex-col items-end gap-4 pr-16 text-xl ${
             openMenu ? "" : "translate-x-full"
           } duration-250`}
         >
