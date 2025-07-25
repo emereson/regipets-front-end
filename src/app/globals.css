@@ -35,3 +35,7 @@ body {
   overflow-x: hidden;
   letter-spacing: 0.5px;
 }
+
+.box-shadowMenu {
+  box-shadow: 0 0 10000px 10000px rgba(16, 29, 76, 0.456);
+}
