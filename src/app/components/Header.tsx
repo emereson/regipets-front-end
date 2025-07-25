@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 w-screen px-10 z-[100] font-[SegoeUiBlack] text-white">
-      <div className="w-full max-w-[1400px] flex justify-between items-center">
+      <div className="w-full max-w-[1400px] m-auto flex justify-between items-center">
         <Link href="/" onClick={() => setOpenMenu(false)}>
           <Image
             className="w-30"
@@ -42,12 +42,15 @@ export default function Header() {
         </div>
 
         <nav
-          className={`fixed z-10 top-0 right-0 h-screen w-[340px] bg-blue pt-[150px]  flex flex-col items-end pr-16 text-xl ${
+          className={`fixed z-10 top-0 right-0 h-screen w-[340px] bg-blue pt-[150px]  flex flex-col items-end gap-4 pr-16 text-xl ${
             openMenu ? "" : "translate-x-full"
           } duration-250`}
         >
           <Link href="/quienes-somos" onClick={() => setOpenMenu(false)}>
             ¿Quiénes Somos?
+          </Link>
+          <Link href="/contactanos" onClick={() => setOpenMenu(false)}>
+            Contáctanos
           </Link>
         </nav>
       </div>

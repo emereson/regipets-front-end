@@ -1,11 +1,11 @@
-import BannerQuienesSomos from "./components/BannerQuienesSomos";
+import BannerPages from "@/app/components/BannerPages";
 import NoQueremosMasMascotas from "./components/NoQueremosMasMascotas";
 import UneteFamiliaRegipets from "./components/UneteFamiliaRegipets";
 
 export default function QuienesSomos() {
   return (
     <main>
-      <BannerQuienesSomos />
+      <BannerPages title="¿Quiénes Somos?" />
       <NoQueremosMasMascotas />
       <UneteFamiliaRegipets />
     </main>

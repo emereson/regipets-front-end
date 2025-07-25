@@ -1,4 +1,8 @@
-export default function BannerQuienesSomos() {
+interface Props {
+  title: string;
+}
+
+export default function BannerPages({ title }: Props) {
   return (
     <section className="relative   w-screen max-h-[1000px] pt-[200px] pb-[150px] bg-blue flex flex-col   overflow-hidden font-[SegoeUiBlack]">
       <div
@@ -11,7 +15,7 @@ export default function BannerQuienesSomos() {
         }}
       ></div>
       <h1 className="m-auto font-[SegoeUiBlack] italic text-white text-4xl ">
-        ¿Quiénes Somos?
+        {title}
       </h1>
     </section>
   );
