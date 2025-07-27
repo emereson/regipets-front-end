@@ -42,7 +42,7 @@ export default function UneteFamiliaRegipets() {
 
   return (
     <section className="relative bg-blue text-white flex flex-col items-center gap-16 rounded-t-[80px] mt-[-50px] px-6 pt-14 pb-[50px]">
-      <h2 className="text-4xl text-center font-[SegoeUiBlack]">
+      <h2 className="text-3xl text-center font-[SegoeUiBlack]">
         Únete a la familia Regipets
       </h2>
       <div className="w-full max-w-3xl flex flex-col gap-14">
@@ -50,19 +50,19 @@ export default function UneteFamiliaRegipets() {
           <article key={item.id} className="w-full flex gap-8">
             <div className="min-w-32 relative">
               <Image
-                className="w-32"
+                className="w-30"
                 src={item.icon}
                 alt={item.title}
                 width={3000}
                 height={1000}
               />
-              <span className="w-10 h-10 absolute bottom-0 right-2 rounded-full bg-black flex items-center justify-center">
+              <span className="w-8 h-8 absolute bottom-0 right-2 rounded-full bg-black flex items-center justify-center">
                 <MdCheck className="text-xl" />
               </span>
             </div>
             <div className="flex flex-col gap-2">
-              <h3 className="font-[SegoeUiBlack] text-2xl">{item.title}</h3>
-              <p className="text-lg font-light">{item.paragraph}</p>
+              <h3 className="font-[SegoeUiBlack] text-xl">{item.title}</h3>
+              <p className="text-medium font-light">{item.paragraph}</p>
             </div>
           </article>
         ))}

@@ -29,7 +29,7 @@ export default function DejanosUnMensaje() {
   return (
     <section className="relative  bg-white   flex flex-col  items-center gap-10 rounded-t-[80px] mt-[-80px]  px-6 pt-14 pb-[50px]">
       <div className="relative w-full max-w-4xl m-auto flex flex-col overflow-hidden pt-10 pb-14">
-        <h2 className="text-4xl text-gray font-[SegoeUiBlack]">
+        <h2 className="text-3xl text-gray font-[SegoeUiBlack]">
           Déjanos un Mensaje
         </h2>
         <form className="w-sm flex flex-col gap-2" onSubmit={onSubmit}>
@@ -72,9 +72,9 @@ export default function DejanosUnMensaje() {
           </button>
         </form>
         <Image
-          className="absolute bottom-0 right-[-10px]  w-[450px] "
-          src="/dog.jpg"
-          alt="Banner de inicio"
+          className="absolute bottom-0 right-[-10px]  w-[430px] "
+          src="/contactanos-regipets.png"
+          alt="contactanos"
           width={1000}
           height={1000}
         />

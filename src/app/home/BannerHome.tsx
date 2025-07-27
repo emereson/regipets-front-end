@@ -41,7 +41,7 @@ export default function BannerProductos() {
             />
 
             <div className="h-full flex flex-col items-center justify-center  ">
-              <h1 className="text-white text-5xl  text-end">
+              <h1 className="text-white text-4xl  text-end">
                 ¡Ellos son familia! <br /> Protégelos como tal <br /> con
                 Regipets
               </h1>
@@ -60,7 +60,7 @@ export default function BannerProductos() {
             />
 
             <div className="h-full flex flex-col items-center justify-center   z-10 ">
-              <h1 className="text-white text-5xl  text-end text-nowrap">
+              <h1 className="text-white text-4xl  text-end text-nowrap">
                 El primer y más grande <br />
                 registro profesional <br />
                 de mascotas en el Perú
@@ -70,7 +70,7 @@ export default function BannerProductos() {
         </SwiperSlide>
       </Swiper>
       <div className="w-full min-h-[40px] bg-orange z-20 flex items-center justify-center ">
-        <h2 className="text-white font-[ArialRoundedmtBold] text-lg">
+        <h2 className="text-white font-[ArialRoundedmtBold] ">
           Cada 3 minutos una mascota se pierde en el Perú: No dejaremos que la
           tuya sea una estadística.
         </h2>

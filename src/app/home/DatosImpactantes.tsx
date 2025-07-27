@@ -4,9 +4,9 @@ export default function DatosImpactantes() {
   return (
     <section className="relative w-full overflow-hidden bg-blue p-6 py-16 text-white font-[ArialRoundedmtBold] flex flex-col  items-center justify-center ">
       <h2 className="text-xl">El problema real</h2>
-      <h3 className="text-4xl font-[SegoeUiBlack]">3 Datos Impactantes</h3>
+      <h3 className="text-3xl font-[SegoeUiBlack]">3 Datos Impactantes</h3>
 
-      <ul className="w-full max-w-[1000px] text-2xl mt-6 flex flex-col gap-2">
+      <ul className="w-full max-w-[1000px] text-xl mt-6 flex flex-col gap-2">
         <li>📊 7 de cada 10 mascotas perdidas nunca regresan</li>
         <li>💔 Solo 15% de mascotas sin ID son devueltas</li>
         <li>⏰ Las primeras 24 horas son críticas</li>
@@ -21,7 +21,7 @@ export default function DatosImpactantes() {
         />
         <div className=" w-full  flex flex-col">
           <h2 className="text-xl">La tranquilidad que mereces</h2>
-          <h3 className="text-4xl font-[SegoeUiBlack]">3 Beneficios Clave</h3>
+          <h3 className="text-3xl font-[SegoeUiBlack]">3 Beneficios Clave</h3>
           <ul className="w-full text-xl mt-6 flex flex-col gap-4">
             <li>🛡️ Sistema Completo: DNI + QR + Notificaciones</li>
             <li>📱 Tecnología 24/7: Te avisamos cuando escanean el código</li>

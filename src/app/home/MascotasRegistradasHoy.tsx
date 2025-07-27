@@ -13,11 +13,11 @@ export default function MascotasRegistradasHoy() {
         }}
       ></div>
       <div className="relative w-[700px] flex flex-col justify-center items-center gap-4">
-        <h2 className="text-3xl">¿Mascotas registradas hasta hoy? </h2>
-        <h2 className="text-3xl">
-          ¡Más de <strong className="text-4xl  ">200 mil</strong>!
+        <h2 className="text-2xl">¿Mascotas registradas hasta hoy? </h2>
+        <h2 className="text-2xl">
+          ¡Más de <strong className="text-3xl  ">200 mil</strong>!
         </h2>
-        <div className="text-2xl font-[ArialRoundedmtBold] mt-10 ml-[-150px] flex flex-col gap-2">
+        <div className="text-xl font-[ArialRoundedmtBold] mt-10 ml-[-150px] flex flex-col gap-2">
           <p>
             Más que un DNI y lindos <br /> accesorios...
           </p>
@@ -26,12 +26,12 @@ export default function MascotasRegistradasHoy() {
             amor.
           </p>
         </div>
-        <button className="px-8 py-2 text-2xl bg-orange  z-10 rounded-full ml-[-100px] mt-6">
+        <button className="px-8 py-3 text-xl bg-orange  z-10 rounded-full ml-[-100px] mt-6">
           Iniciar Registro
         </button>
       </div>
       <Image
-        className="w-[500px] -ml-30 "
+        className="w-[450px] -ml-30 "
         src="/inicio/Capa3.png"
         alt="Banner de inicio"
         width={800}

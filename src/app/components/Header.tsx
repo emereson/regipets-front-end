@@ -64,8 +64,14 @@ export default function Header() {
             openMenu ? " box-shadowMenu" : "translate-x-full "
           } duration-250`}
         >
+          <Link href="/encontre-una-mascota" onClick={() => setOpenMenu(false)}>
+            Encontré una mascota
+          </Link>
           <Link href="/quienes-somos" onClick={() => setOpenMenu(false)}>
             ¿Quiénes Somos?
+          </Link>
+          <Link href="/preguntas-frecuentes" onClick={() => setOpenMenu(false)}>
+            Preguntas Frecuentes
           </Link>
           <Link href="/contactanos" onClick={() => setOpenMenu(false)}>
             Contáctanos

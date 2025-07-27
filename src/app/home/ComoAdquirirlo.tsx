@@ -17,7 +17,7 @@ export default function ComoAdquirirlo() {
         <div className="flex items-center gap-8">
           <article className="flex flex-col items-center gap-3">
             <Image
-              className="w-[250px] "
+              className="w-[230px] "
               src="/inicio/Regipets_icon_1.png"
               alt="Banner de inicio"
               width={800}
@@ -42,7 +42,7 @@ export default function ComoAdquirirlo() {
           />
           <article className="flex flex-col items-center gap-3 ">
             <Image
-              className="w-[200px] "
+              className="w-[180px] "
               src="/inicio/Regipets_icon_2.png"
               alt="Banner de inicio"
               width={800}
@@ -68,7 +68,7 @@ export default function ComoAdquirirlo() {
           />
           <article className="flex flex-col items-center gap-3">
             <Image
-              className="w-[230px]"
+              className="w-[210px]"
               src="/inicio/Regipets_icon_3.png"
               alt="Banner de inicio"
               width={800}
