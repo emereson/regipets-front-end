@@ -5,6 +5,8 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Providers } from "./providers";
 import Header from "./components/Header";
+import Cart from "./components/Cart";
+import { Toaster } from "sonner";
 
 export default function RootLayout({
   children,
@@ -13,9 +15,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="ligth">
-      <body>
+      <body className="w-screen flex flex-col overflow-x-hidden">
         <Header />
         <Providers>{children}</Providers>
+        <Cart />
+        <Toaster richColors />
       </body>
     </html>
   );

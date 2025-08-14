@@ -2,7 +2,11 @@ import Image from "next/image";
 
 export default function ComoAdquirirlo() {
   return (
-    <section className="relative  bg-white   flex items-center justify-center overflow-hidden font-[SegoeUiBlack] text-white py-28 pb-36 rounded-t-[80px] -mt-16 text-gray">
+    <section
+      className="relative  bg-white   flex items-center justify-center overflow-hidden font-[SegoeUiBlack] text-white py-28 pb-36 rounded-t-[80px] -mt-16 text-gray
+    max-sm:rounded-t-4xl max-sm:pt-14
+    "
+    >
       <div
         className="absolute top-0 left-0  w-full h-full opacity-90"
         style={{
@@ -13,8 +17,8 @@ export default function ComoAdquirirlo() {
         }}
       ></div>
       <div className="w-full flex flex-col items-center gap-16 z-10 ">
-        <h2 className="text-3xl">¿Cómo adquirirlo?</h2>
-        <div className="flex items-center gap-8">
+        <h2 className="text-title">¿Cómo adquirirlo?</h2>
+        <div className="flex items-center gap-8 max-sm:flex-col">
           <article className="flex flex-col items-center gap-3">
             <Image
               className="w-[230px] "
@@ -27,14 +31,14 @@ export default function ComoAdquirirlo() {
               1
             </span>
             <h3 className="text-xl mt-2">Evita pérdidas</h3>
-            <p className="font-[ArialRoundedmtBold]">
+            <p className="font-[ArialRoundedmtBold] max-sm:text-sm">
               Aumenta en un 90% la <br /> probalididad de que tu <br />{" "}
               mascotita vuelva a casa
             </p>
           </article>
 
           <Image
-            className="w-[120px] h-min"
+            className="w-[120px] h-min max-sm:rotate-90 max-sm:my-6"
             src="/inicio/blue_arrow.png"
             alt="Banner de inicio"
             width={200}
@@ -54,13 +58,13 @@ export default function ComoAdquirirlo() {
             <h3 className="text-xl mt-2 text-nowrap">
               Válido en el extranjero
             </h3>
-            <p className="font-[ArialRoundedmtBold] text-center">
+            <p className="font-[ArialRoundedmtBold] text-center max-sm:text-sm">
               Nuestro registro tiene un <br /> alcance nacional e <br />{" "}
               iternacional
             </p>
           </article>
           <Image
-            className="w-[120px] h-min"
+            className="w-[120px] h-min max-sm:rotate-90 max-sm:my-6"
             src="/inicio/blue_arrow_2.png"
             alt="Banner de inicio"
             width={200}
@@ -78,7 +82,7 @@ export default function ComoAdquirirlo() {
               3
             </span>
             <h3 className="text-xl mt-2 text-nowrap">Cerca a ti </h3>
-            <p className="font-[ArialRoundedmtBold] text-center">
+            <p className="font-[ArialRoundedmtBold] text-center max-sm:text-sm">
               Hacemos envios seguros a <br /> todo el Perú a través de <br />{" "}
               empresa aliadas
             </p>

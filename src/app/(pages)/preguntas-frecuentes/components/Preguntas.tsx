@@ -12,8 +12,8 @@ export default function Preguntas() {
   );
 
   return (
-    <section className="relative bg-white flex flex-col items-center gap-16 rounded-t-[60px] mt-[-60px] px-6 py-20">
-      <div className="w-full max-w-5xl flex gap-14">
+    <section className="relative bg-white flex flex-col items-center gap-16 rounded-t-[60px] mt-[-60px] px-6 py-20 max-sm:rounded-t-4xl max-sm:px-4">
+      <div className="w-full max-w-5xl flex gap-14 max-sm:flex-col">
         <ul className="flex flex-col gap-4">
           {secciones.map((item) => (
             <li

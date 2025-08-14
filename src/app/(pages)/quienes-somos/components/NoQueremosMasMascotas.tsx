@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function NoQueremosMasMascotas() {
   return (
-    <section className="relative bg-white   flex flex-col  items-center gap-10 rounded-t-[80px] mt-[-80px]  px-6 pt-14 pb-[50px]">
-      <h2 className="text-3xl text-center text-gray font-[SegoeUiBlack] italic">
+    <section className="relative bg-white   flex flex-col  items-center gap-10 rounded-t-[80px] mt-[-80px]  px-6 pt-14 pb-[50px] max-sm:rounded-t-4xl max-sm:px-4">
+      <h2 className="text-title text-center text-gray font-[SegoeUiBlack] italic">
         “No queremos más mascotas perdidas <br /> y decidimos hacer un cambio”
       </h2>
       <div className="flex flex-col gap-6 text-center">

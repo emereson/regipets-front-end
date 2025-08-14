@@ -31,6 +31,18 @@
   color: #565656;
 }
 
+.text-title {
+  font-size: 30px;
+}
+
+.text-2xl {
+  font-size: 24px;
+}
+
+.text-xl {
+  font-size: 20px;
+}
+
 body {
   overflow-x: hidden;
   letter-spacing: 0.6px;
@@ -38,4 +50,17 @@ body {
 
 .box-shadowMenu {
   box-shadow: 0 0 10000px 10000px rgba(16, 29, 76, 0.456);
+}
+
+@media (max-width: 650px) {
+  .text-title {
+    font-size: 24px;
+  }
+
+  .text-2xl {
+    font-size: 20px;
+  }
+  .text-xl {
+    font-size: 18px;
+  }
 }

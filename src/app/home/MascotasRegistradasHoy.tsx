@@ -2,7 +2,11 @@ import Image from "next/image";
 
 export default function MascotasRegistradasHoy() {
   return (
-    <section className="relative  bg-blue  flex items-center justify-center overflow-hidden font-[SegoeUiBlack] text-white py-28 pb-36 rounded-t-[80px] mt-28">
+    <section
+      className="relative  bg-blue  flex items-center justify-center overflow-hidden font-[SegoeUiBlack] text-white py-28 pb-36 rounded-t-[80px] mt-28 
+    max-sm:rounded-t-4xl max-sm:px-4 max-sm:flex-col max-sm:py-14 
+    "
+    >
       <div
         className="absolute top-0 left-0  w-full h-full opacity-10"
         style={{
@@ -12,12 +16,12 @@ export default function MascotasRegistradasHoy() {
           backgroundPosition: "top left",
         }}
       ></div>
-      <div className="relative w-[700px] flex flex-col justify-center items-center gap-4">
+      <div className="relative w-[700px] flex flex-col justify-center items-center gap-4 max-sm:w-full  max-sm:text-center ">
         <h2 className="text-2xl">¿Mascotas registradas hasta hoy? </h2>
-        <h2 className="text-2xl">
-          ¡Más de <strong className="text-3xl  ">200 mil</strong>!
+        <h2 className="text-2xl ">
+          ¡Más de <strong className="text-title  ">200 mil</strong>!
         </h2>
-        <div className="text-xl font-[ArialRoundedmtBold] mt-10 ml-[-150px] flex flex-col gap-2">
+        <div className="w-full text-xl font-[ArialRoundedmtBold] mt-10 ml-[-150px] flex flex-col gap-2 max-sm:ml-0 max-sm:mt-5">
           <p>
             Más que un DNI y lindos <br /> accesorios...
           </p>
@@ -26,12 +30,12 @@ export default function MascotasRegistradasHoy() {
             amor.
           </p>
         </div>
-        <button className="px-8 py-3 text-xl bg-orange  z-10 rounded-full ml-[-100px] mt-6">
+        <button className="px-8 py-3 text-xl bg-orange  z-10 rounded-full ml-[-100px] mt-6 max-sm:m-auto max-sm:mt-5">
           Iniciar Registro
         </button>
       </div>
       <Image
-        className="w-[450px] -ml-30 "
+        className="w-[450px] -ml-30  max-sm:w-[300px] max-sm:m-auto "
         src="/inicio/Capa3.png"
         alt="Banner de inicio"
         width={800}

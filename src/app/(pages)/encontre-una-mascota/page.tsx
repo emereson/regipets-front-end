@@ -3,7 +3,7 @@ import InegreseCodigo from "./components/InegreseCodigo";
 
 export default function EncontreUnaMascota() {
   return (
-    <main>
+    <main className="w-full overflow-x-hidden">
       <BannerPages title="Encontré una Mascota" />
       <InegreseCodigo />
     </main>

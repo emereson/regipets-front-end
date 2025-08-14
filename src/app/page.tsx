@@ -9,6 +9,7 @@ import UneteAlaFamilia from "./home/UneteAlaFamilia";
 export default function Home() {
   return (
     <main
+      className="w-full overflow-x-hidden"
       style={{
         backgroundImage: "url('/identidadVisual/backBlanco-2-01.png')",
         backgroundRepeat: "repeat",

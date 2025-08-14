@@ -14,7 +14,7 @@ export default function BannerPages({ title }: Props) {
           backgroundPosition: "top left",
         }}
       ></div>
-      <h1 className="m-auto font-[SegoeUiBlack] italic text-white text-3xl ">
+      <h1 className="m-auto font-[SegoeUiBlack] italic text-white text-title ">
         {title}
       </h1>
     </section>

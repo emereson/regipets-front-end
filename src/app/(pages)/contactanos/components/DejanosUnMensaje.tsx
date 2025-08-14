@@ -21,15 +21,12 @@ export default function DejanosUnMensaje() {
       correo: formData.get("correo") as string,
       mensaje: formData.get("mensaje") as string,
     };
-
-    console.log(data);
-    // Aquí puedes hacer fetch o axios para enviar los datos
   };
 
   return (
-    <section className="relative  bg-white   flex flex-col  items-center gap-10 rounded-t-[80px] mt-[-80px]  px-6 pt-14 pb-[50px]">
-      <div className="relative w-full max-w-4xl m-auto flex flex-col overflow-hidden pt-10 pb-14">
-        <h2 className="text-3xl text-gray font-[SegoeUiBlack]">
+    <section className="relative bg-white flex flex-col items-center gap-16 rounded-t-[60px] mt-[-60px] px-6 py-20 max-sm:rounded-t-4xl max-sm:px-4 max-sm:pb-0 max-sm:pt-4">
+      <div className="relative w-full max-w-4xl m-auto flex flex-col overflow-hidden pt-10 pb-14 max-sm:pb-0">
+        <h2 className="text-title text-gray font-[SegoeUiBlack]">
           Déjanos un Mensaje
         </h2>
         <form className="w-sm flex flex-col gap-2" onSubmit={onSubmit}>
@@ -72,7 +69,7 @@ export default function DejanosUnMensaje() {
           </button>
         </form>
         <Image
-          className="absolute bottom-0 right-[-10px]  w-[430px] "
+          className="absolute bottom-0 right-[-10px]  w-[430px]  max-sm:relative  max-sm:w-[300px] max-sm: mt-10"
           src="/contactanos-regipets.png"
           alt="contactanos"
           width={1000}
