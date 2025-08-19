@@ -5,22 +5,22 @@ import { Input, Textarea } from "@heroui/react";
 import Image from "next/image";
 import React, { FormEvent } from "react";
 
-interface ContactanosData {
-  nombre: string;
-  correo: string;
-  mensaje: string;
-}
+// interface ContactanosData {
+//   nombre: string;
+//   correo: string;
+//   mensaje: string;
+// }
 
 export default function DejanosUnMensaje() {
   const onSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault(); // importante para evitar recarga
-    const formData = new FormData(e.currentTarget);
+    // const formData = new FormData(e.currentTarget);
 
-    const data: ContactanosData = {
-      nombre: formData.get("nombre") as string,
-      correo: formData.get("correo") as string,
-      mensaje: formData.get("mensaje") as string,
-    };
+    // const data: ContactanosData = {
+    //   nombre: formData.get("nombre") as string,
+    //   correo: formData.get("correo") as string,
+    //   mensaje: formData.get("mensaje") as string,
+    // };
   };
 
   return (

@@ -85,6 +85,7 @@ export default function Header() {
             openMenu ? " box-shadowMenu" : "translate-x-full "
           } duration-250`}
         >
+          <Link href="/encontre-una-mascota">Inicio</Link>
           <Link href="/encontre-una-mascota">Encontré una mascota</Link>
           <Link href="/quienes-somos">¿Quiénes Somos?</Link>
           <Link href="/preguntas-frecuentes">Preguntas Frecuentes</Link>

@@ -4,7 +4,7 @@ interface Props {
 
 export default function BannerPages({ title }: Props) {
   return (
-    <section className="relative   w-screen max-h-[1000px] pt-[200px] pb-[150px] bg-blue flex flex-col   overflow-hidden font-[SegoeUiBlack]">
+    <section className="relative   w-screen max-h-[1000px] pt-[100px] pb-[150px] bg-blue flex flex-col   overflow-hidden font-[SegoeUiBlack]">
       <div
         className="absolute top-0 left-0  w-full h-full opacity-10"
         style={{

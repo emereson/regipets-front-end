@@ -31,7 +31,7 @@ export default function NivelProteccion() {
   };
 
   return (
-    <section className="w-full flex flex-col items-center gap-10 px-6 py-14 max-sm:px-4">
+    <section className="w-full flex flex-col items-center gap-10 px-6 py-10 max-sm:px-4">
       <h2 className="font-[SegoeUiBlack] text-title text-[#565656] text-center">
         Elige tu nivel de protección
       </h2>
@@ -117,7 +117,7 @@ export default function NivelProteccion() {
                     </p>
                     <Button
                       type="button"
-                      className="flex items-center justify-center bg-blue text-white cursor-pointer"
+                      className="flex items-center justify-center bg-orange text-white cursor-pointer"
                       onPress={() => addToCart(producto)}
                     >
                       Agregar

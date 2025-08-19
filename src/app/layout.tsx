@@ -7,6 +7,7 @@ import { Providers } from "./providers";
 import Header from "./components/Header";
 import Cart from "./components/Cart";
 import { Toaster } from "sonner";
+import Footer from "./components/Footer";
 
 export default function RootLayout({
   children,
@@ -20,6 +21,7 @@ export default function RootLayout({
         <Providers>{children}</Providers>
         <Cart />
         <Toaster richColors />
+        <Footer />
       </body>
     </html>
   );

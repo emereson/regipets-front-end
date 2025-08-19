@@ -3,17 +3,31 @@ import Image from "next/image";
 export default function DatosImpactantes() {
   return (
     <section className="relative w-full overflow-hidden bg-blue px-6 py-16 text-white font-[ArialRoundedmtBold] flex flex-col  items-center justify-center ">
-      <h2 className="text-xl">El problema real</h2>
-      <h3 className="text-title font-[SegoeUiBlack]">3 Datos Impactantes</h3>
+      <div className="w-full max-w-[1000px] flex pt-16 gap-10 z-10  max-sm:flex-col">
+        <div className=" w-full  flex flex-col">
+          <h2 className="text-xl">El problema real</h2>
+          <h3 className="text-title font-[SegoeUiBlack]">
+            3 Datos Impactantes
+          </h3>
 
-      <ul className="w-full max-w-[1000px] text-xl mt-6 flex flex-col gap-2">
-        <li>📊 7 de cada 10 mascotas perdidas nunca regresan</li>
-        <li>💔 Solo 15% de mascotas sin ID son devueltas</li>
-        <li>⏰ Las primeras 24 horas son críticas</li>
-      </ul>
+          <ul className="w-full max-w-[1000px] text-xl mt-6 flex flex-col gap-2">
+            <li>📊 7 de cada 10 mascotas perdidas nunca regresan</li>
+            <li>💔 Solo 15% de mascotas sin ID son devueltas</li>
+            <li>⏰ Las primeras 24 horas son críticas</li>
+          </ul>
+        </div>
+
+        <Image
+          className="w-[400px] max-sm:w-full max-sm:max-w-[300px]"
+          src="/inicio/width_550.png"
+          alt="Banner de inicio"
+          width={800}
+          height={800}
+        />
+      </div>
       <div className="w-full max-w-[1000px] flex items-center pt-16 gap-10 z-10  max-sm:flex-col">
         <Image
-          className="w-[450px] max-sm:w-full max-sm:max-w-[350px]"
+          className="w-[400px] max-sm:w-full max-sm:max-w-[300px]"
           src="/inicio/width_550.png"
           alt="Banner de inicio"
           width={800}

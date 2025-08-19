@@ -34,7 +34,7 @@ export default function UneteAlaFamilia() {
   };
 
   return (
-    <section className="w-full flex flex-col items-center gap-16 px-6 py-16 max-sm:px-4 max-sm:gap-5 ">
+    <section className="w-full flex flex-col items-center gap-10 px-6 py-16 max-sm:px-4 max-sm:gap-5 ">
       <h2 className="font-[SegoeUiBlack] text-title text-center text-[#565656]">
         Únete a la familia Regipets
       </h2>

@@ -27,7 +27,7 @@ export default function ProductosCarrito() {
 
   return (
     <section className="relative bg-white flex flex-col items-center gap-16 rounded-t-[60px] mt-[-60px] px-6 py-20 max-sm:rounded-t-4xl max-sm:px-4 max-sm:pb-0 max-sm:pt-4">
-      <div className="w-full max-w-4xl m-auto flex gap-10 max-sm:flex-col">
+      <div className="w-full max-w-6xl m-auto flex gap-10 max-sm:flex-col">
         <section className="w-full flex flex-col  gap-4">
           <article className=" relative bg-blue rounded-lg flex items-center gap-3 p-4 px-10 max-sm:px-6">
             <div

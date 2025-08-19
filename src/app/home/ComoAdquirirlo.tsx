@@ -30,10 +30,10 @@ export default function ComoAdquirirlo() {
             <span className="rounded-full bg-orange w-10 h-10 flex items-center justify-center text-white">
               1
             </span>
-            <h3 className="text-xl mt-2">Evita pérdidas</h3>
+            <h3 className="text-xl mt-2">Registra</h3>
             <p className="font-[ArialRoundedmtBold] max-sm:text-sm">
-              Aumenta en un 90% la <br /> probalididad de que tu <br />{" "}
-              mascotita vuelva a casa
+              Elije tu producto, realiza <br /> el pago y deja los datos <br />{" "}
+              para realizar tu registro.
             </p>
           </article>
 
@@ -55,12 +55,9 @@ export default function ComoAdquirirlo() {
             <span className="rounded-full bg-orange w-10 h-10 flex items-center justify-center text-white">
               2
             </span>
-            <h3 className="text-xl mt-2 text-nowrap">
-              Válido en el extranjero
-            </h3>
+            <h3 className="text-xl mt-2 text-nowrap">Espera</h3>
             <p className="font-[ArialRoundedmtBold] text-center max-sm:text-sm">
-              Nuestro registro tiene un <br /> alcance nacional e <br />{" "}
-              iternacional
+              Relájate y espera el envio.
             </p>
           </article>
           <Image
@@ -81,10 +78,9 @@ export default function ComoAdquirirlo() {
             <span className="rounded-full bg-orange w-10 h-10 flex items-center justify-center text-white">
               3
             </span>
-            <h3 className="text-xl mt-2 text-nowrap">Cerca a ti </h3>
+            <h3 className="text-xl mt-2 text-nowrap">Disfruta </h3>
             <p className="font-[ArialRoundedmtBold] text-center max-sm:text-sm">
-              Hacemos envios seguros a <br /> todo el Perú a través de <br />{" "}
-              empresa aliadas
+              Obtén descuentos y ofertas en cientos de negocios en el país.
             </p>
           </article>
         </div>
