@@ -101,7 +101,7 @@ export default function Cart() {
 
                     <div className="w-min flex items-center gap-2 bg-neutral-200 rounded-full text-sm">
                       <button
-                        className="p-1.5 text-[9px]  rounded-md bg-blue text-white  cursor-pointer "
+                        className="p-1.5 text-[9px]  rounded-md bg-orange text-white  cursor-pointer "
                         onClick={() => decreaseQuantity(producto.id)}
                       >
                         <TiMinus />
@@ -110,7 +110,7 @@ export default function Cart() {
                         {producto.quantity}
                       </span>
                       <button
-                        className="p-1.5 text-[9px]  rounded-md bg-blue text-white  cursor-pointer "
+                        className="p-1.5 text-[9px]  rounded-md bg-orange text-white  cursor-pointer "
                         onClick={() => increaseQuantity(producto.id)}
                       >
                         <TiPlus />
@@ -152,7 +152,7 @@ export default function Cart() {
                 VER CARRITO
               </Link>
               <Link
-                className="w-full bg-blue px-4 py-2.5 rounded-xl text-nowrap text-center text-sm text-white transition-all duration-300    hover:shadow-lg"
+                className="w-full bg-orange px-4 py-2.5 rounded-xl text-nowrap text-center text-sm text-white transition-all duration-300    hover:shadow-lg"
                 href="/finalizar-compra"
                 onClick={closeCart}
               >

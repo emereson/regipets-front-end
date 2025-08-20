@@ -46,7 +46,7 @@ export default function ComoAdquirirlo() {
           />
           <article className="flex flex-col items-center gap-3 ">
             <Image
-              className="w-[180px] "
+              className="w-[210px] "
               src="/inicio/Regipets_icon_2.png"
               alt="Banner de inicio"
               width={800}
@@ -80,7 +80,8 @@ export default function ComoAdquirirlo() {
             </span>
             <h3 className="text-xl mt-2 text-nowrap">Disfruta </h3>
             <p className="font-[ArialRoundedmtBold] text-center max-sm:text-sm">
-              Obtén descuentos y ofertas en cientos de negocios en el país.
+              Obtén descuentos y ofertas <br /> en cientos de negocios <br />
+              en el país.
             </p>
           </article>
         </div>

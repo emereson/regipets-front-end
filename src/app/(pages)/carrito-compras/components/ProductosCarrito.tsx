@@ -163,13 +163,14 @@ export default function ProductosCarrito() {
             </article>
           </div>
           <div className="py-4 px-6 flex flex-col items-center gap-4 ">
-            <Button
-              className="bg-orange px-6 text-white text-medium "
-              radius="sm"
-              type="submit"
-            >
-              PAGAR AHORA
-            </Button>
+            <Link href={"/finalizar-compra"}>
+              <Button
+                className="bg-orange px-6 text-white text-medium "
+                radius="sm"
+              >
+                PAGAR AHORA
+              </Button>
+            </Link>
             <Link href="/" className="text-xs underline">
               O SEGUIR COMPRANDO
             </Link>

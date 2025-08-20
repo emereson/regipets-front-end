@@ -45,7 +45,14 @@ export default function UneteFamiliaRegipets() {
       <h2 className="text-title text-center font-[SegoeUiBlack]">
         Únete a la familia Regipets
       </h2>
-      <div className="w-full max-w-3xl flex flex-col gap-14">
+      <div className="relative w-full max-w-3xl flex flex-col gap-14">
+        <Image
+          className="w-5 absolute top-20 -left-10"
+          src={"/quienesSomos/flecha1.png"}
+          alt="flecha1"
+          width={3000}
+          height={1000}
+        />
         {listInfo.map((item) => (
           <article key={item.id} className="w-full flex gap-8 max-sm:flex-col">
             <div className="min-w-32 w-fit relative max-sm:w-24 max-sm:min-w-0 ">
@@ -66,6 +73,13 @@ export default function UneteFamiliaRegipets() {
             </div>
           </article>
         ))}
+        <Image
+          className="w-16 absolute bottom-32 -right-20"
+          src={"/quienesSomos/flecha2.png"}
+          alt="flecha2"
+          width={3000}
+          height={1000}
+        />
       </div>
     </section>
   );
