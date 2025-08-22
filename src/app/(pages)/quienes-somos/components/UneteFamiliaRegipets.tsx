@@ -41,7 +41,7 @@ export default function UneteFamiliaRegipets() {
   ];
 
   return (
-    <section className="relative bg-blue text-white flex flex-col items-center gap-16 rounded-t-[80px] mt-[-50px] px-6 pt-14 pb-[50px] max-sm:rounded-t-4xl max-sm:px-4">
+    <section className="relative bg-blue text-white flex flex-col items-center gap-16 rounded-t-[80px] mt-[-50px] px-6 pt-14 pb-[130px] max-sm:rounded-t-4xl max-sm:px-4">
       <h2 className="text-title text-center font-[SegoeUiBlack]">
         Únete a la familia Regipets
       </h2>

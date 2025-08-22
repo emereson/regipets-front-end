@@ -19,8 +19,8 @@ export default function DatosMascota({ mascota }: Props) {
   };
 
   return (
-    <section className="relative  bg-white   flex justify-center  gap-10 rounded-t-[80px] mt-[-80px]  px-6 pt-14 pb-[50px]">
-      <div className="w-full max-w-5xl flex gap-14">
+    <section className="relative  bg-white   flex justify-center  gap-10 rounded-t-[80px] mt-[-80px]  px-6 pt-14 pb-[50px] max-sm:rounded-4xl">
+      <div className="w-full max-w-5xl flex gap-14 max-sm:flex-col">
         <div className="w-full max-w-[400px]">
           <Image
             className="w-full max-w-[400px]"
