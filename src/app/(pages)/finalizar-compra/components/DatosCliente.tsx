@@ -148,13 +148,7 @@ export default function DatosCliente() {
         cost: deliveryCost,
       });
     }
-  }, [
-    selectDepartamento,
-    selectProvincia,
-    selectDistrito,
-    setDeliveryInfo,
-    calcularDelivery,
-  ]);
+  }, [selectDepartamento, selectProvincia, selectDistrito, setDeliveryInfo]);
 
   const delivery = calcularDelivery();
 
