@@ -128,54 +128,56 @@ export default function Footer() {
           </div>
         </div>
       </section>
-      <section className="w-full flex justify-between items-center bg-[#0356ba] px-10 pb-10">
-        <div className="flex space-x-4">
-          <a
-            href="#"
-            className="w-10 h-10 bg-[#0356ba] hover:bg-[#ff610a] text-white rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
-          >
-            <FaFacebookF className="text-xl" />
-          </a>
-          <a
-            href="#"
-            className="w-10 h-10 bg-[#0356ba] hover:bg-[#ff610a] text-white rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
-          >
-            <FaInstagram className="text-xl" />
-          </a>
-          <a
-            href="#"
-            className="w-10 h-10 bg-[#0356ba] hover:bg-[#ff610a] text-white rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
-          >
-            <FaTwitter className="text-xl" />
-          </a>
-          <a
-            href="#"
-            className="w-10 h-10 bg-[#0356ba] hover:bg-[#ff610a] text-white rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
-          >
-            <FaWhatsapp className="text-xl" />
-          </a>
-        </div>
-        <div>
-          <p className="text-white text-sm mb-3">Métodos de Pago:</p>
-          <div className="flex space-x-3 flex-wrap items-center">
-            <div className="p-1 bg-gray-100 rounded-sm hover:bg-gray-200 transition-colors duration-300">
-              <FaCcVisa className="text-2xl text-blue-600" />
-            </div>
-            <div className="p-1 bg-gray-100 rounded-sm hover:bg-gray-200 transition-colors duration-300">
-              <FaCcMastercard className="text-2xl text-red-500" />
-            </div>
-            <div className="p-1 bg-gray-100 rounded-sm hover:bg-gray-200 transition-colors duration-300">
-              <FaCcAmex className="text-2xl text-blue-700" />
-            </div>
-            <div className="p-1 bg-gray-100 rounded-sm hover:bg-gray-200 transition-colors duration-300">
-              <FaCcPaypal className="text-2xl text-blue-500" />
+      <div className="w-full bg-[#0356ba] ">
+        <section className="w-full  max-w-7xl m-auto flex justify-between items-center bg-[#0356ba] px-10 pb-10">
+          <div className="flex space-x-4">
+            <a
+              href="#"
+              className="w-10 h-10 bg-[#0356ba] hover:bg-[#ff610a] text-white rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
+            >
+              <FaFacebookF className="text-xl" />
+            </a>
+            <a
+              href="#"
+              className="w-10 h-10 bg-[#0356ba] hover:bg-[#ff610a] text-white rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
+            >
+              <FaInstagram className="text-xl" />
+            </a>
+            <a
+              href="#"
+              className="w-10 h-10 bg-[#0356ba] hover:bg-[#ff610a] text-white rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
+            >
+              <FaTwitter className="text-xl" />
+            </a>
+            <a
+              href="#"
+              className="w-10 h-10 bg-[#0356ba] hover:bg-[#ff610a] text-white rounded-full flex items-center justify-center transition-all duration-300 transform hover:scale-110"
+            >
+              <FaWhatsapp className="text-xl" />
+            </a>
+          </div>
+          <div>
+            <p className="text-white text-sm mb-3">Métodos de Pago:</p>
+            <div className="flex space-x-3 flex-wrap items-center">
+              <div className="p-1 bg-gray-100 rounded-sm hover:bg-gray-200 transition-colors duration-300">
+                <FaCcVisa className="text-2xl text-blue-600" />
+              </div>
+              <div className="p-1 bg-gray-100 rounded-sm hover:bg-gray-200 transition-colors duration-300">
+                <FaCcMastercard className="text-2xl text-red-500" />
+              </div>
+              <div className="p-1 bg-gray-100 rounded-sm hover:bg-gray-200 transition-colors duration-300">
+                <FaCcAmex className="text-2xl text-blue-700" />
+              </div>
+              <div className="p-1 bg-gray-100 rounded-sm hover:bg-gray-200 transition-colors duration-300">
+                <FaCcPaypal className="text-2xl text-blue-500" />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
       {/* Bottom Section */}
-      <section className="w-full px-6 py-6 bg-white border-t border-gray-200">
+      <section className="w-full max-w-7xl m-auto px-6 py-6 bg-white border-t border-gray-200">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
             <div className="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 text-black  text-sm">
