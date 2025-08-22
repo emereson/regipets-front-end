@@ -170,8 +170,7 @@ export default function DatosCliente() {
       .then((res) => {
         const checkoutUrl = res.data.init_point;
 
-        // Abrir en nueva ventana
-        window.open(checkoutUrl, "_blank", "width=800,height=900");
+        window.location.href = checkoutUrl; // Redirige automáticamente
       })
       .catch((err) => console.log(err))
       .finally(() => setLoading(false));
